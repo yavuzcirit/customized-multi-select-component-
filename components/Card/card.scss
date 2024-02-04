@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    padding: 1rem 1rem;
+    &__img{
+        img {
+            border-radius: 0.75rem;
+        }
+    }
+    &__data{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+
+        &__name{
+            font-size: 1rem;
+            font-weight: 600;
+            color: gray;
+            .highlight {
+                background-color: yellow;
+              }
+        }
+
+        &__episodes{
+            color: #8d8787;
+        }
+    }
+}

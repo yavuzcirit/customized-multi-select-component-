@@ -1,0 +1,17 @@
+.modal{
+    border: 1px solid gray;
+    padding: 1rem 0;
+    height: 300px !important;
+    width: 500px;
+    overflow-y: scroll !important;
+    background: #ebebeb;
+    border-radius: 1rem;
+    position: relative;
+    .card-wrapper
+    {
+     border-bottom: 1px solid gray;
+    &:last-child{
+        border: none !important;
+    }
+}
+}
